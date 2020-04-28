@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pj</title>
+   
+  </head>
+  <body>
+
 <?php
 $menus = array(
   array('name' => 'CURRY', 'price' => 900),
@@ -21,3 +31,5 @@ echo "合計金額は".$sum."円です";
 echo "<br>";
 echo $max_item."が最高価格で".$max_price."円です";
 ?>
+  </body>
+</html>
